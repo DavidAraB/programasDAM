@@ -136,7 +136,7 @@ public class Ejercicio23afa {
 			else {
 				bisiesto=false;
 			}
-			esto no sirve es mejor el otro
+			
 			//DÍAS MES:
 			if(m%2!=0 && m<=7 || m%2==0 && m>7) {
 				dias_mes=31;
@@ -166,7 +166,7 @@ public class Ejercicio23afa {
 				d+=1;;	
 			}
 		}*/
-		System.out.println("Los dias transcurridos son: "+d_total+"klk");
+		System.out.println("Los dias transcurridos son: "+d_total);
 
 
 	}

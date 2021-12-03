@@ -166,7 +166,7 @@ public class Ejercicio23afa {
 				d+=1;;	
 			}
 		}*/
-		System.out.println("Los dias transcurridos son: "+d_total+"klk");
+		System.out.println("Los dias transcurridos son: "+d_total);
 
 
 	}
