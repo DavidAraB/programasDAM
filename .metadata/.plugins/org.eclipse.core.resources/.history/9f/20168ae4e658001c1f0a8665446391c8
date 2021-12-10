@@ -15,7 +15,7 @@ public class Ejer3 {
 		for(cont=0;a1<a2;++a1) {
 			if(a1%4==0 ) {
 				if(a1%100==0) {
-					if(a1%400==0)cont+=366;//Si es bisiesto suma 1 dia + al año
+					if(a1%400==0)cont+=366;
 					else cont+=365;
 					}
 				else cont+=366;
@@ -24,7 +24,7 @@ public class Ejer3 {
 		}
 		for(n=1;n<m1;++n) {
 			if(n==1 || n==3 || n==5 || n==7 || n==8 || n==10 || n==12)cont-=31;
-			else if(n == 2)cont-=28; //Si es bisiesto el dia esta ya sumado en "año"
+			else if(n == 2)cont-=28;
 			else if(n==4 || n==6 || n==9 || n==11)cont-=30;
 		}
 		for(n=1;n<m2;++n) {

@@ -12,7 +12,7 @@ public class Ejer3 {
 		m2=teclado.nextInt();
 		a2=teclado.nextInt();
 		System.out.print("El tiempo transcurrido entre "+d1+"/"+m1+"/"+a1+" y "+d2+"/"+m2+"/"+a2+" es de : ");
-		for(cont=0;a1<a2;++a1) {
+		for(cont=0;a1<a2;a1++) {
 			if(a1%4==0 ) {
 				if(a1%100==0) {
 					if(a1%400==0)cont+=366;//Si es bisiesto suma 1 dia + al año
