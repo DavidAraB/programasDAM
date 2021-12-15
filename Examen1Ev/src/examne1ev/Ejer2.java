@@ -13,10 +13,10 @@ public class Ejer2 {
 			letra = teclado.next();
 			letra = letra.toUpperCase();
 			if(dni<100000000 && dni>0) {
-			n=dni%23;
-			if(letra.charAt(0)==(le.charAt(n))) {
-				correcto = true;
-			}
+				n=dni%23;
+				if(letra.charAt(0)==(le.charAt(n))) {
+					correcto = true;
+				}
 			}
 		}
 
